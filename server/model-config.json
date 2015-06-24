@@ -23,7 +23,7 @@
         "public": false
     },
     "subsider": {
-        "dataSource": "db",
+        "dataSource": "mongo",
         "public": true
     }
 }

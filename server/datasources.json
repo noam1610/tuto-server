@@ -1,6 +1,6 @@
 {
-    "mongo": {
-        "name": "mongo",
+    "db": {
+        "name": "db",
         "connector": "memory"
     },
     "mongo": {
