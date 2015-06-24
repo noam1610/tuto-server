@@ -1,1 +1,25 @@
-{"name":"subsider","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"name":{"type":"string"}},"validations":[],"relations":{},"acls":[],"methods":[]}
+{
+    "name": "subsider",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "name": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "remove"
+    }
+  ],
+    "methods": []
+}
